@@ -60,8 +60,8 @@ target/
 *.bak
 *.swp
 *.vim
-.*
 !.gitignore
 resources
 bower_components
 upload
+node_modules

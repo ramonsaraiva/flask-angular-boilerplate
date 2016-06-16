@@ -1,23 +1,25 @@
 {
-  "name": "boilerplate",
-  "version": "0",
-  "homepage": "https://github.com/ramonsaraiva/boilerplate",
-  "authors": [
-    "Ramon Saraiva <ramonsaraiva@gmail.com>"
-  ],
-  "description": "boilerplate",
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "jquery": "~2.1.4",
-    "angular": "~1.4.0",
-    "bootstrap": "~3.3.4",
-	"angular-route": "~1.3.1"
-  }
+    "name": "boilerplate",
+    "version": "0",
+    "homepage": "https://github.com/ramonsaraiva/flask-angular-boilerplate",
+    "authors": [
+        "Ramon Saraiva <ramonsaraiva@gmail.com>"
+    ],
+    "description": "boilerplate",
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "~2.1.4",
+        "angular": "~1.4.0",
+        "angular-route": "~1.3.1",
+        "ng-resource": "~0.0.2",
+        "angular-resource": "^1.5.0",
+        "angular-local-storage": ""
+    }
 }

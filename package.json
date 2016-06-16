@@ -1,0 +1,20 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-sass": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ramonsaraiva/flask-angular-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/ramonsaraiva/flask-angular-boilerplate#readme"
+}
