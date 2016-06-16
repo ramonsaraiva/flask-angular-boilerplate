@@ -23,6 +23,12 @@ api = Api(app)
 
 #api.add_resource(Resource, '/url/')
 
+@app.after_request
+def after_request(response):
+    if 'WWW-Authenticate' in response.headers:
+        del response.headers['WWW-Authenticate']
+    return response
+
 @app.route('/')
 def send_template():
     return send_from_directory('templates', 'base.html')
